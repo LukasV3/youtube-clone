@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header-menu">
+      <!-- hamburger -->
+
+      <div class="logo-div">
+        <img src="img/logo.jpg" alt="YouTube" class="logo" />
+      </div>
+      <span class="sup">GB</span>
+
+      <div class="searchbar">
+        <input type="search" class="searchbar-input" placeholder="Search" />
+        <li class="menu-icon-item searchbar-btn-item">
+          <a href="#" class="searchbar-btn-link"><i class="fas fa-search"></i></a>
+          <ul class="dropdown-menu">
+            <li class="menu-item menu-item-0">Search</li>
+          </ul>
+        </li>
+      </div>
+
+      <ul class="header-grid-right">
+        <li class="menu-icon-item">
+          <a href="#" class="menu-icon-link"><i class="fas fa-video"></i></a>
+          <ul class="dropdown-menu">
+            <li class="menu-item menu-item-1">Create</li>
+          </ul>
+        </li>
+
+        <li class="menu-icon-item">
+          <a href="#" class="menu-icon-link"><i class="fas fa-th"></i></a>
+          <ul class="dropdown-menu">
+            <li class="menu-item menu-item-2">YouTube apps</li>
+          </ul>
+        </li>
+
+        <li class="menu-icon-item">
+          <a href="#" class="menu-icon-link"><i class="fas fa-bell"></i></a>
+          <ul class="dropdown-menu">
+            <li class="menu-item menu-item-3">Notifications</li>
+          </ul>
+        </li>
+        <a href="#" class="user-profile-link">L</a>
+      </ul>
+    </header>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+
+    <!-- SIDEBAR MAIN -->
+    <nav class="sidebar-main">
+      <ul class="sidebar-main-nav">
+        <li class="sidebar-main-item sidebar-main-item-active">
+          <a href="#" class="sidebar-main-link"><i class="fas fa-home"></i>Home</a>
+        </li>
+        <li class="sidebar-main-item">
+          <a href="#" class="sidebar-main-link"><i class="fas fa-fire"></i>Trending</a>
+        </li>
+        <li class="sidebar-main-item">
+          <a href="#" class="sidebar-main-link"
+            ><i class="fab fa-youtube"></i>Subscriptions</a
+          >
+        </li>
+      </ul>
+
+      <ul class="sidebar-main-nav">
+        <li class="sidebar-main-item">
+          <a href="#" class="sidebar-main-link"
+            ><i class="fas fa-photo-video"></i>Library</a
+          >
+        </li>
+        <li class="sidebar-main-item none">
+          <a href="#" class="sidebar-main-link"><i class="fas fa-history"></i>History</a>
+        </li>
+        <li class="sidebar-main-item none">
+          <a href="#" class="sidebar-main-link"
+            ><i class="fas fa-tag"></i>Purchases<span>2</span></a
+          >
+        </li>
+        <li class="sidebar-main-item none">
+          <a href="#" class="sidebar-main-link"
+            ><i class="fab fa-youtube"></i>Watch later</a
+          >
+        </li>
+        <li class="sidebar-main-item none">
+          <a href="#" class="sidebar-main-link"
+            ><i class="fas fa-thumbs-up"></i>Liked Videos</a
+          >
+        </li>
+      </ul>
+
+      <ul class="sidebar-main-nav none">
+        <p class="sidebar-main-text-1">Subscriptions</p>
+        <li class="sidebar-main-item">
+          <a href="#" class="sidebar-main-link"><i class="fas fa-music"></i>Music</a>
+        </li>
+        <li class="sidebar-main-item">
+          <a href="#" class="sidebar-main-link"><i class="fas fa-futbol"></i>Sport</a>
+        </li>
+        <li class="sidebar-main-item">
+          <a href="#" class="sidebar-main-link"><i class="fas fa-gamepad"></i>Gaming</a>
+        </li>
+        <li class="sidebar-main-item">
+          <a href="#" class="sidebar-main-link"
+            ><i class="fas fa-ticket-alt"></i>Movies & shows</a
+          >
+        </li>
+      </ul>
+
+      <ul class="sidebar-main-nav none">
+        <p class="sidebar-main-text-2">MORE FROM YOUTUBE</p>
+        <li class="sidebar-main-item">
+          <a href="#" class="sidebar-main-link"
+            ><i class="fab fa-youtube"></i>YouTube Premium</a
+          >
+        </li>
+        <li class="sidebar-main-item">
+          <a href="#" class="sidebar-main-link"
+            ><i class="fas fa-film"></i>Movies & shows</a
+          >
+        </li>
+        <li class="sidebar-main-item">
+          <a href="#" class="sidebar-main-link"><i class="fas fa-gamepad"></i>Gaming</a>
+        </li>
+        <li class="sidebar-main-item">
+          <a href="#" class="sidebar-main-link"><i class="fas fa-wifi"></i>Live</a>
+        </li>
+        <li class="sidebar-main-item">
+          <a href="#" class="sidebar-main-link"
+            ><i class="fas fa-tshirt"></i>Fashion & beauty</a
+          >
+        </li>
+        <li class="sidebar-main-item">
+          <a href="#" class="sidebar-main-link"
+            ><i class="fas fa-lightbulb"></i>Learning</a
+          >
+        </li>
+      </ul>
+
+      <ul class="sidebar-main-nav none">
+        <li class="sidebar-main-item">
+          <a href="#" class="sidebar-main-link"><i class="fas fa-cog"></i>Settings</a>
+        </li>
+        <li class="sidebar-main-item">
+          <a href="#" class="sidebar-main-link"
+            ><i class="fas fa-flag"></i>Report history</a
+          >
+        </li>
+        <li class="sidebar-main-item">
+          <a href="#" class="sidebar-main-link"
+            ><i class="fas fa-question-circle"></i>Help</a
+          >
+        </li>
+        <li class="sidebar-main-item">
+          <a href="#" class="sidebar-main-link"
+            ><i class="fas fa-comment-alt"></i>Send feedback</a
+          >
+        </li>
+      </ul>
+
+      <ul class="sidebar-main-nav sidebar-main-nav-footer none">
+        <li class="sidebar-main-footer-item">
+          <a href="#" class="sidebar-main-footer-link">About</a>
+        </li>
+        <li class="sidebar-main-footer-item">
+          <a href="#" class="sidebar-main-footer-link">Press</a>
+        </li>
+        <li class="sidebar-main-footer-item">
+          <a href="#" class="sidebar-main-footer-link">Copyright</a>
+        </li>
+        <li class="sidebar-main-footer-item">
+          <a href="#" class="sidebar-main-footer-link">Contact us</a>
+        </li>
+        <li class="sidebar-main-footer-item">
+          <a href="#" class="sidebar-main-footer-link">Creators</a>
+        </li>
+        <br />
+        <li class="sidebar-main-footer-item">
+          <a href="#" class="sidebar-main-footer-link">Advertise</a>
+        </li>
+        <li class="sidebar-main-footer-item">
+          <a href="#" class="sidebar-main-footer-link">Developers</a>
+        </li>
+        <br />
+        <br />
+        <li class="sidebar-main-footer-item">
+          <a href="#" class="sidebar-main-footer-link">Terms</a>
+        </li>
+        <li class="sidebar-main-footer-item">
+          <a href="#" class="sidebar-main-footer-link">Privacy</a>
+        </li>
+        <br />
+        <li class="sidebar-main-footer-item">
+          <a href="#" class="sidebar-main-footer-link">Policy & Safety</a>
+        </li>
+        <li class="sidebar-main-footer-item">
+          <a href="#" class="sidebar-main-footer-link">How YouTube works</a>
+        </li>
+        <li class="sidebar-main-footer-item">
+          <a href="#" class="sidebar-main-footer-link">Test new features</a>
+        </li>
+        <br />
+        <br />
+        <br />
+        <p class="sidebar-main-footer-text">&copy 2020 Google LLC</p>
+      </ul>
+    </nav>
+
+    <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+
+    <header class="header-secondary">
+      <ul class="header-secondary-nav">
+        <li class="header-secondary-item">
+          <a href="#" class="header-secondary-link header-secondary-link-active">All</a>
+        </li>
+        <li class="header-secondary-item">
+          <a href="#" class="header-secondary-link">Ambient Music</a>
+        </li>
+        <li class="header-secondary-item">
+          <a href="#" class="header-secondary-link">Binaural beats</a>
+        </li>
+        <li class="header-secondary-item">
+          <a href="#" class="header-secondary-link">Electronic Music</a>
+        </li>
+        <li class="header-secondary-item">
+          <a href="#" class="header-secondary-link">Podcasts</a>
+        </li>
+        <li class="header-secondary-item">
+          <a href="#" class="header-secondary-link">Sports cars</a>
+        </li>
+        <li class="header-secondary-item">
+          <a href="#" class="header-secondary-link">SUVs</a>
+        </li>
+        <li class="header-secondary-item">
+          <a href="#" class="header-secondary-link">Cars</a>
+        </li>
+        <li class="header-secondary-item">
+          <a href="#" class="header-secondary-link">Formula 1</a>
+        </li>
+        <li class="header-secondary-item">
+          <a href="#" class="header-secondary-link">Wipeout</a>
+        </li>
+        <li class="header-secondary-item">
+          <a href="#" class="header-secondary-link">Basketball</a>
+        </li>
+        <li class="header-secondary-item">
+          <a href="#" class="header-secondary-link">Racing</a>
+        </li>
+        <li class="header-secondary-item">
+          <a href="#" class="header-secondary-link">Live</a>
+        </li>
+        <li class="header-secondary-item">
+          <a href="#" class="header-secondary-link">A.I </a>
+        </li>
+        <li class="header-secondary-item menu-icon-item">
+          <a href="#" class="menu-icon-link">></a>
+          <ul class="dropdown-menu">
+            <li class="menu-item menu-item-4">Next</li>
+          </ul>
+        </li>
+      </ul>
+    </header>
+  </body>
+</html>
